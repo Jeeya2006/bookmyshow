@@ -231,47 +231,22 @@ h3{
 }
 footer{
     margin-top: 1px;
-    background: #333545;
+    background: #1E1E20;
     color: white;
+    height: 400px;
 }
-
+.footer-logo{
+    padding: 15px;
+}
 .footer-top{
-    background: #40434f;
+    background: #1E1E20;
     display: flex;
     justify-content: space-around;
     padding: 30px;
 }
-
-.footer-top div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.footer-top i{
-    font-size: 25px;
-}
-
-.footer-links{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-}
-
-.footer-links h3{
-    margin: 15px 0;
-}
-
-.footer-links p{
-    color: #b9b9b9;
-    line-height: 1.8;
-}
-
 .footer-logo{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .footer-logo h2{
@@ -279,85 +254,34 @@ footer{
 }
 
 .copyright{
+    margin-top: 17px;
     border-top: 1px solid #555;
     text-align: center;
     padding: 20px;
     color: #b9b9b9;
+    
 }
-.promoted{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: red;
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.ku{
+    display: flex;
+    gap: 40px;
+}
+
+.ku h3{
     color: white;
-    padding: 6px 12px;
-    font-size: 12px;
-    font-weight: 600;
-    z-index: 10;
-
-    border-radius: 0 10px 0 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
-.likes{
-    position:absolute;
-    bottom:55px;
-    left:0;
-    width:100%;
-    /* background:rgba(0,0,0,0.9); */
-    color:white;
-    padding:12px;
-    font-size:16px;
-    font-weight:500;
-    box-sizing:border-box;
-}
-
-.likes i{
-    color:#16c75a;
-    margin-right:8px;
-}
-/* RESPONSIVE */
-
-@media(max-width:768px){
-
-    .nav1{
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
-    }
-
-    .left-nav,
-    .right-nav{
-        width: 100%;
-        justify-content: center;
-    }
-
-    .search-bar{
-        width: 100%;
-    }
-
-    .nav2{
-        flex-direction: column;
-        gap: 15px;
-        padding: 15px;
-    }
-
-    .left-nav2,
-    .right-nav2{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .recomen,
-    .premiere-movies{
-        flex-wrap: wrap;
-    }
-
-    .rec,
-    .premovie{
-        width: 48%;
-    }
-
-    .footer-top{
-        flex-direction: column;
-        gap: 25px;
-    }
+.qr{
+    width: 170px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 610px;
 }
